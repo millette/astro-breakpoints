@@ -1,10 +1,10 @@
 {
-    "name": "astro-meta-tags",
-    "version": "0.2.1",
-    "author": "Patrick Arminio",
-    "repository": "github:patrick91/astro-meta-tags",
+    "name": "astro-breakpoints",
+    "version": "0.0.1",
+    "author": "Bryan Schuetz",
+    "repository": "github:bryanschuetz/astro-breakpoints",
     "license": "MIT",
-    "description": "A Dev Toolbar extension to debug meta tags in your Astro website",
+    "description": "A Dev Toolbar App to display the size of the current viewport—as a tailwind class.",
     "keywords": [
         "astro",
         "withastro",
