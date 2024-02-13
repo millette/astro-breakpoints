@@ -22,7 +22,7 @@ import { defineConfig } from "astro/config";
 import astroBreakpoints from "astro-breakpoints";
 
 export default defineConfig({
-  integrations: [astroBreakpoints()],
+  integrations: [astroBreakpoints],
 });
 ```
 

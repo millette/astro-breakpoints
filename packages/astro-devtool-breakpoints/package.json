@@ -1,6 +1,6 @@
 {
-    "name": "astro-breakpoints",
-    "version": "0.0.1",
+    "name": "astro-devtool-breakpoints",
+    "version": "0.1.0",
     "author": "Bryan Schuetz",
     "repository": "github:bryanschuetz/astro-breakpoints",
     "license": "MIT",
