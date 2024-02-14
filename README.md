@@ -11,7 +11,7 @@ To install Astro Breakpoints, run the following command with your preferred
 package manager:
 
 ```sh
-npx astro add astro-breakpoints
+npx astro add astro-devtool-breakpoints
 ```
 
 ## Usage
@@ -19,10 +19,10 @@ npx astro add astro-breakpoints
 ```ts
 import { defineConfig } from "astro/config";
 
-import astroBreakpoints from "astro-breakpoints";
+import astroBreakpoints from "astro-devtool-breakpoints";
 
 export default defineConfig({
-  integrations: [astroBreakpoints],
+  integrations: [astroBreakpoints()],
 });
 ```
 
