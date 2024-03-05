@@ -21,11 +21,19 @@ export default {
       .text-content { display: none; }
       .text-xl { display: block; }
     }
+    /* Adding 2xl breakpoint */
+    @media (min-width: 1536px) {
+      .text-content { display: none; }
+      .text-2xl { display: block; }
+    }
   </style>
   <text x="50%" y="50%" class="text-content text-sm" dominant-baseline="middle" text-anchor="middle">sm</text>
   <text x="50%" y="50%" class="text-content text-md" dominant-baseline="middle" text-anchor="middle">md</text>
   <text x="50%" y="50%" class="text-content text-lg" dominant-baseline="middle" text-anchor="middle">lg</text>
   <text x="50%" y="50%" class="text-content text-xl" dominant-baseline="middle" text-anchor="middle">xl</text>
+  <!-- including the 2xl text element -->
+  <text x="50%" y="50%" class="text-content text-2xl" dominant-baseline="middle" text-anchor="middle">2xl</text>
+
 </svg>
   `,
   init(canvas, eventTarget) {
