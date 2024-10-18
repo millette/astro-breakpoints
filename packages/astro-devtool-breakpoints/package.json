@@ -1,8 +1,9 @@
 {
     "name": "astro-devtool-breakpoints",
-    "version": "0.1.1",
+    "version": "0.3.0",
     "author": "Bryan Schuetz",
     "repository": "github:bryanschuetz/astro-breakpoints",
+    "homepage": "https://www.npmjs.com/package/astro-devtool-breakpoints?activeTab=readme",
     "license": "MIT",
     "description": "A Dev Toolbar App to display the size of the current viewport—as a tailwind class.",
     "keywords": [
@@ -10,7 +11,9 @@
         "withastro",
         "astro-component",
         "astro-integration",
-        "devtools"
+        "devtools",
+        "tailwind",
+        "css"
     ],
     "main": "./src/index.ts",
     "exports": {
