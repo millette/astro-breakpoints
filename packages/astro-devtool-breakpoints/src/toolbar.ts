@@ -36,7 +36,7 @@ export default {
 
 </svg>
   `,
-  init(canvas, eventTarget) {
+  init(_canvas, eventTarget) {
     eventTarget.dispatchEvent(
       new CustomEvent('toggle-notification', {
         detail: {
